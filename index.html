@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html>
+<head>
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <script src="libs/js/core-js.shim.min.js"></script>
+    <script src="libs/js/zone.js"></script>
+    <script src="libs/js/reflect-metadata.js"></script>
+    <script src="libs/js/systemjs.js"></script>
+    <script src="./systemjs.config.js"></script>
+    <script>
+    System.import('script.ts').catch(function(err) {
+        console.error(err);
+    });
+    </script>
+</head>
+
+<body class="container">
+    <h1 class="text-center">QA App</h1>
+    <qa-list></qa-list>
+</body>
+
+</html>

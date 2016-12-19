@@ -1,0 +1,16 @@
+{
+  "name": "ng2_base_project",
+  "version": "0.1.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/live-server/live-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.1.0"
+  }
+}
